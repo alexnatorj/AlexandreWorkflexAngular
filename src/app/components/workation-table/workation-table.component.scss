@@ -1,0 +1,23 @@
+.workflex-container {
+  padding: 24px;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+:host ::ng-deep .p-datatable {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+:host ::ng-deep .p-datatable-thead > tr > th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+:host ::ng-deep .p-datatable-tbody > tr:hover {
+  background-color: #f3f4f6;
+}
